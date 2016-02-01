@@ -1,28 +1,40 @@
-name: Patriziomoi
 favicon: null
-layout_spectrum: 0.6640920015051961
-typography_spectrum: 0.8957752038259059
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Patriziomoi
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9146079
+  brandStrength: 0.5394185427576303
+  lightness: 0
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.5394185427576303
-  lightness: 0.9517795618157834
-  saturation: 0.788193341344595
-  rhythmicContrast: 0.9114767687860876
-purpose: []
+  rhythmicContrast: 0.7105263
+typography_spectrum: 0.8845327
+layout_spectrum: 0.9586466
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
